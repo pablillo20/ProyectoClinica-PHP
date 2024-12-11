@@ -1,0 +1,25 @@
+{
+    "name": "pablo/clinica",
+    "description": "Clinica",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Pablo\\Clinica\\": "./",
+            "Controllers\\" : "./Controllers",
+            "Models\\" : "./Models",
+            "Lib\\" : "./Lib",
+            "Repositories\\" : "./Repositories",
+            "Services\\" : "./Services"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pablo Rubio",
+            "email": "pabloruno4@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
